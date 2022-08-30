@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" verbose="0">
+  <listeners>
+    <listener class-name="com.qa.listeners.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Zenfone8(failed)" verbose="0">
+    <parameter name="emulator" value="false"/>
+    <parameter name="chromeDriverPort" value="11000"/>
+    <parameter name="platformName" value="Android"/>
+    <parameter name="udid" value="M5AIB760J829M75"/>
+    <parameter name="deviceName" value="ZenFone 8"/>
+    <parameter name="systemPort" value="10000"/>
+    <classes>
+      <class name="com.qa.tests.FoodCheckoutTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="selectProduct"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.qa.tests.FoodCheckoutTest -->
+    </classes>
+  </test> <!-- Zenfone8(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="tests" name="Suite">
+  <test name="Zenfone8">
+  	<listeners>
+	<listener class-name="com.qa.listeners.TestListener"/>
+	</listeners>
+	    <classes>
+	      <parameter name="emulator" value="false"/>
+	      <parameter name="platformName" value="Android"/>
+	   	  <parameter name="deviceName" value="ZenFone 8"/>
+	   	  <parameter name="udid" value="M5AIB760J829M75"/>
+	   	  <parameter name="systemPort" value="10000"/>
+	   	  <parameter name="chromeDriverPort" value="11000"/>
+	   	  <class name="com.qa.tests.FoodCheckoutTest"/>
+	    </classes> 
+  </test> <!-- Test -->
+  
+  <test name="Pixel3">
+  	<listeners>
+	<listener class-name="com.qa.listeners.TestListener"/>
+	</listeners>
+	    <classes>
+	      <parameter name="emulator" value="true"/>
+	      <parameter name="platformName" value="Android"/>
+	   	  <parameter name="deviceName" value="Pixel3"/>
+	   	  <parameter name="udid" value="emulator-5554"/>
+	   	  <parameter name="systemPort" value="10001"/>
+	   	  <parameter name="chromeDriverPort" value="11001"/>
+	   	  <class name="com.qa.tests.FoodCheckoutTest"/>
+	    </classes> 
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

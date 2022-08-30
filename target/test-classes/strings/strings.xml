@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+<!-- Success message -->
+	<string name="add_to_cart_success">Item added to cart.</string>
+	<string name="product_title">Products</string>
+	<string name="update_address_success">Address is updated.</string>
+</resources>

@@ -1,0 +1,8 @@
+{
+	"updateAddressDetails":{
+		"alias":"Test Alias",
+		"roomFlr":"Test Floor",
+		"streetBrgy":"Brgy. 123 Test",
+		"landmark":"Sample landmark"
+	}
+}
