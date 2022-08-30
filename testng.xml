@@ -12,6 +12,7 @@
 	   	  <parameter name="systemPort" value="10000"/>
 	   	  <parameter name="chromeDriverPort" value="11000"/>
 	   	  <class name="com.qa.tests.FoodCheckoutTest"/>
+	   	  <!-- <class name="com.qa.tests.GMCheckoutTest"/> -->
 	    </classes> 
   </test> <!-- Test -->
 </suite> <!-- Suite -->
