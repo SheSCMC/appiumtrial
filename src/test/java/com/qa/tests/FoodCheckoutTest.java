@@ -45,20 +45,20 @@ public class FoodCheckoutTest extends BaseTest {
 		
 	}
 	
-  @Test(priority=2)
-  public void selectProduct() {
+//   @Test(priority=2)
+//   public void selectProduct() {
 	  
-	  //Select Product
-	  foodPage = homepage.goToFoodPage();
-	  Assert.assertTrue(foodPage.verifyPresenceOfFoodLbl());
+// 	  //Select Product
+// 	  foodPage = homepage.goToFoodPage();
+// 	  Assert.assertTrue(foodPage.verifyPresenceOfFoodLbl());
 	  
-	  brandPage = foodPage.goToStore();
-	  Assert.assertTrue(brandPage.verifyPresenceOfProductsLbl());
+// 	  brandPage = foodPage.goToStore();
+// 	  Assert.assertTrue(brandPage.verifyPresenceOfProductsLbl());
 	  
-	  productDetailsPage = brandPage.selectAbeProduct();
-	  productDetailsPage.addQuantity();
+// 	  productDetailsPage = brandPage.selectAbeProduct();
+// 	  productDetailsPage.addQuantity();
 	  
-  }
+//   }
 	
 //  @Test(priority=3)
 //  public void buyNowFnBCash() {
