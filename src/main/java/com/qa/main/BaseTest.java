@@ -152,10 +152,10 @@ public class BaseTest {
 		ThreadContext.put("ROUTINGKEY", "ServerLogs");
 		
 		//This is for Windows 
-//		server = getAppiumServiceDefault();
+		server = getAppiumServiceDefault();
 		
 		//This is for Mac and also working for Windows
-		server = getAppiumService();
+// 		server = getAppiumService();
 		
 		if (!checkIfAppiumServerIsRunning(4723)) {
 			server.start();
